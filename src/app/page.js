@@ -1,7 +1,11 @@
-import Image from 'next/image'
+"use client"
+import Board from "./components/Board"
 
 export default function Home() {
-  return (
-   <main className='text-white p-20 bg-teal-500'>Hey</main>
+   return (
+    <div className="grid place-items-center h-screen bg-[#262421]">
+      <Board/>
+      
+    </div>
   )
 }
